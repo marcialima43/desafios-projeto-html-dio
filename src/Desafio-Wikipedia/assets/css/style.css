@@ -1,0 +1,77 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    list-style: none;
+    padding-left: 5px;
+}
+nav ul a{
+    color: blue;
+    text-decoration: none;
+}
+.bar{
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+nav{
+    border-left:solid 1px #cdcdcd ;
+    padding-left: 15px;
+}
+section h2{
+    text-align: center;
+}
+section p{
+    line-height: var(li);
+    
+}
+.figure{
+    float: left;
+    margin-left: 2px;
+}
+.img{
+    margin-top: 30px;
+    width: 254px;
+    max-width: 254px;
+    flex-direction: column;
+    float: right;
+    
+    
+}
+.thumbimg{
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+}
+.texto{
+    float: left;
+    width: 600px;
+    text-align: justify;
+}
+aside{
+    border-right: solid 1px #cdcdcd;
+}
+main{
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas:"sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+figure{
+    text-align: center;
+}
+footer{
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+footer p{
+    font-size: small;
+}
